@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>main</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="header_container container">
+            <div class="header_wrapper">
+                <div class="header_info">
+                    <img src="img/face.png" alt="" class="avatar">
+                    <div class="header_info-text">
+                        <b>
+                            Иван Петров
+                        </b>
+                        <div>
+                            Frontend developer
+                        </div>
+                    </div>
+                </div>
+                <div class="header_contact">
+                    <div class="header_contact-head">
+                        Контакты
+                    </div>
+                        <div>
+                            <a href="tel:+79223344455">
+                                +79223344455
+                            </a>
+                        <div>
+                            <a href="mailto:email@yandex.ru">
+                                email@yandex.ru
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr>
+        </div>
+    </header>
+    <main class="main">
+        <section class="description_wrapper section">
+            <div class="container">
+                <p>
+                    <b>Немного обо мне:</b> это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum
+                    является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный
+                    печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки
+                    образцов. Lorem Ipsum не только успешно пережил без заметных изменений пять веков...
+                </p>
+            </div>
+        </section>
+        <section class="table-info_wrapper section">
+            <div class="container">
+                <div class="table-info">
+                    <div class="table-info_column">
+                        <div class="table-info_head">
+                            Хобби
+                        </div>
+                        <ul class="table-info_list">
+                            <li class="table-info_li">
+                                Чтение
+                            </li>
+                            <li class="table-info_li">
+                                Путешествия
+                            </li>
+                            <li class="table-info_li">
+                                Настольные игры
+                            </li>
+                            <li class="table-info_li">
+                                Плавание
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="table-info_column">
+                        <div class="table-info_head">
+                            Социальные сети
+                        </div>
+                        <ol class="table-info_list">
+                            <li class="table-info_li">
+                                <a href="https://vk.com" class="link"><span class="custom-li">1. </span>VK</a>
+                            </li>
+                            <li class="table-info_li">
+                                <a href="https://instagram.com" class="link"><span class="custom-li">2. </span>Instagram</a>
+                            </li>
+                            <li class="table-info_li">
+                                <a href="web.telegram.org" class="link"><span class="custom-li">3. </span>Telegram</a>
+                            </li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="technologies_wrapper section">
+            <div class="container">
+                <div class="technologies">
+                    <div class="section-head">
+                        Интересующие технологии
+                    </div>
+                    <div class="technologies_row">
+                        <a class="item" href="https://en.wikipedia.org/wiki/JavaScript">
+                            <img class="item__img" src="img/js.png" alt="">
+                            <div class="item_title">JavaScript</div>
+                        </a>
+                        <a class="item" href="https://en.wikipedia.org/wiki/Python_(programming_language)">
+                            <img class="item_img" src="img/python.png" alt="">
+                            <div class="item_title">Python</div>
+                        </a>
+                        <a class="item" href="https://en.wikipedia.org/wiki/Vue.js">
+                            <img class="item_img" src="img/vuejs.png" alt="">
+                            <div class="item_title">VueJS</div>
+                        </a>
+                        <a class="item" href="https://en.wikipedia.org/wiki/PostgreSQL">
+                            <img class="item_img" src="img/pstr.png" alt="">
+                            <div class="item_title">PostgreSQL</div>
+                        </a>
+                        <a class="item" href="https://en.wikipedia.org/wiki/Docker_(software)">
+                            <img class="item_img" src="img/docker.png" alt="">
+                            <div class="item_title">Docker</div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="section-head">
+                Форма обратной связи
+            </div>
+            <form class="form" action="">
+                <div class="form_row">
+                    <input class="form_row-item form_input" type="text" placeholder="Ваше имя">
+                    <input class="form_row-item form_input" type="tel" placeholder="Телефон">
+                </div>
+                <div class="form_row">
+                    <textarea class="question-textarea form_input" cols="30" rows="10" placeholder="Ваш вопрос"></textarea>
+                </div>
+                <div class="form_row">
+                <input class="form-submit" type="submit" value="Отправить">
+                </div>
+            </form>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
